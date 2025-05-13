@@ -1,0 +1,10 @@
+# Copyright (c) 2025 liangyq <liangyongqincn@gmail.com>
+# 
+# SPDX-License-Identifier: Apache-2.0
+
+board:
+  name: aka_stm32f429igt6
+  vendor: akadimia
+  socs:
+    - name: stm32f429xx
+    

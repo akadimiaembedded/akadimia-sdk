@@ -1,0 +1,6 @@
+board:
+  name: challenger
+  vendor: embedfire
+  socs:
+    - name: stm32f429xx
+    

@@ -1,0 +1,10 @@
+identifier: challenger
+name: embedfire challenger
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - gpio
+vendor: embedfire

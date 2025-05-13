@@ -1,0 +1,14 @@
+# Copyright (c) 2025 liangyq <liangyongqincn@gmail.com>
+# 
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: aka_stm32f429igt6
+name: akadimia stm32f429igt6
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - gpio
+vendor: akadimia
