@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/liangyongqin
 
   projects:
-    - name: zephyr
+    - name: akadimia-zephyr
       remote: akadimia
       revision: main
       path: zephyr
