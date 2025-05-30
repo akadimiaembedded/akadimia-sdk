@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/akadimiaembedded
 
   projects:
-    - name: zephyr
+    - name: akadimia-zephyr
       remote: akadimia-embedded
       revision: main
       path: zephyr
