@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: akadimia
-      url-base: https://github.com/liangyongqin
+    - name: akadimia-embedded
+      url-base: https://github.com/akadimiaembedded
 
   projects:
-    - name: akadimia-zephyr
-      remote: akadimia
+    - name: zephyr
+      remote: akadimia-embedded
       revision: main
       path: zephyr
       import: true
