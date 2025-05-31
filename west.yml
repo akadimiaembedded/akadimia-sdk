@@ -1,14 +1,31 @@
 manifest:
+  defaults:
+      remote: akadimia-embedded
+
   remotes:
     - name: akadimia-embedded
       url-base: https://github.com/akadimiaembedded
 
   projects:
     - name: akadimia-zephyr
-      remote: akadimia-embedded
       revision: main
       path: zephyr
       import: true
+    - name: hal_geehy
+      revision: main
+      path: modules/hal/geehy
+      groups:
+        - hal
+    - name: hal_xhsc
+      revision: main
+      path: modules/hal/xhsc
+      groups:
+        - hal
+    - name: hal_sifli
+      revision: main
+      path: modules/hal/sifli
+      groups:
+        - hal
       
   self:
     path: .
