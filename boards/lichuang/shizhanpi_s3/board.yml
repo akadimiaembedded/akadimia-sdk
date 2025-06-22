@@ -1,0 +1,10 @@
+# Copyright (c) 2025 liangyq <liangyongqincn@gmail.com>
+# 
+# SPDX-License-Identifier: Apache-2.0
+
+board:
+  name: shizhanpi_s3
+  full_name: shizhanpi-s3
+  vendor: lichuang
+  socs:
+  - name: esp32s3

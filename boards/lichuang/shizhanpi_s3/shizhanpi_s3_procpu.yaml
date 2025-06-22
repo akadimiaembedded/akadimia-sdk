@@ -1,0 +1,11 @@
+# Copyright (c) 2025 liangyq <liangyongqincn@gmail.com>
+# 
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: shizhanpi_s3/esp32s3/procpu
+name: shizhanpi-s3 procpu
+type: mcu
+arch: xtensa
+toolchain:
+  - zephyr
+vendor: lichuang
