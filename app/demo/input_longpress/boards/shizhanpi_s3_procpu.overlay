@@ -1,0 +1,19 @@
+
+/*
+ * Copyright (c) 2025 liangyq <liangyongqincn@gmail.com>
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+
+/ {
+        longpress: longpress {
+          input = <&buttons>;
+          compatible = "zephyr,input-longpress";
+          input-codes = <INPUT_KEY_0>;
+          short-codes = <INPUT_KEY_A>;
+          long-codes = <INPUT_KEY_X>;
+          long-delay-ms = <1000>;
+  	};
+};
